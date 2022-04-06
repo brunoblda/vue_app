@@ -11,6 +11,7 @@
             id="nome"
             v-model="produto"
             placeholder="Digite o produto"
+            required
           />
         </div>
         <div class="input-container">
