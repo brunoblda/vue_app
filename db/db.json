@@ -1,0 +1,88 @@
+{
+  "Produtos": {
+    "tipos": [
+      {
+        "id": 1,
+        "tipo": "Lazer"
+      },
+      {
+        "id": 2,
+        "tipo": "Alimentação"
+      },
+      {
+        "id": 3,
+        "tipo": "Saúde"
+      },
+      {
+        "id": 4,
+        "tipo": "Educação"
+      }
+    ],
+    "modelos": [
+      {
+        "id": 1,
+        "tipo": "Trabalho"
+      },
+      {
+        "id": 2,
+        "tipo": "Casa"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Sem estoque"
+    },
+    {
+      "id": 2,
+      "tipo": "Em processo de compra"
+    },
+    {
+      "id": 3,
+      "tipo": "Tem no estoque"
+    }
+  ],
+  "Listas": [
+    {
+      "produto": "Cobertor",
+      "date_p": "05/04/2022 20:37:20",
+      "tipo": "Lazer",
+      "modelos": [
+        "Casa"
+      ],
+      "status": "Sem estoque",
+      "id": 1
+    },
+    {
+      "produto": "Prato",
+      "date_p": "05/04/2022 21:07:59",
+      "tipo": "Alimentação",
+      "modelos": [
+        "Casa"
+      ],
+      "status": "Em processo de compra",
+      "id": 2
+    },
+    {
+      "produto": "pizza",
+      "date_p": "05/04/2022 21:28:04",
+      "tipo": "Alimentação",
+      "modelos": [
+        "Casa"
+      ],
+      "status": "Tem no estoque",
+      "id": 3
+    },
+    {
+      "produto": "Banana",
+      "date_p": "05/04/2022 21:29:08",
+      "tipo": "Alimentação",
+      "modelos": [
+        "Trabalho"
+      ],
+      "status": "Em processo de compra",
+      "id": 4
+    }
+  ]
+}
